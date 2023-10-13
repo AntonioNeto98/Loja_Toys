@@ -1,0 +1,115 @@
+
+header {
+    background-color: rgb(66, 0, 142);
+    padding: 10px 0;
+}
+
+body {
+    background-color: rgb(109, 109, 109);
+}
+
+.card {
+    background-color: rgb(66, 0, 142);
+}
+
+.card-produtos {
+    color: #fff;
+    margin: 25px;
+}
+
+.card-tittle {
+    margin: 25px 0;
+}
+
+.card-tittle, .card-header, h2, h3, p, strong {
+    color: #fff;
+}
+
+header h1 {
+    font-size: 50px;
+    color: #fff;
+}
+
+.nav-item a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-item a:hover {
+    text-decoration: underline;
+}
+
+.carousel-item img {
+    height: 500px;
+    margin: 25px 0;
+    margin-left: 250px;
+}
+
+.card img {
+    height: 450px
+}
+
+.produtos {
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+    column-gap: 1%;
+    row-gap: 4%;
+}
+
+#botao-pro {
+    margin: 15px;
+}
+
+@media screen and (max-width: 1023px) {
+
+    .carousel-item img {
+        height: 500px;
+        margin-left: 150px;
+    }
+
+    .produtos {
+    grid-template-columns: repeat(2, 49%);
+    column-gap: 2%;
+    row-gap: 2%;
+}
+
+}
+
+@media screen and (max-width: 426px) {
+
+    .navbar {
+        display: flex;
+        justify-content: center;
+    }
+
+    .carousel-item img {
+        width: 350px;
+        margin-left: 25px;
+    }
+
+    .produtos {
+        display: flex;
+        width: 300px;
+        margin:  auto;
+    }
+
+    .card {
+        margin-bottom: 25px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+
+    .carousel-item img {
+        width: 300px;
+        margin-left: 0;
+    }
+
+
+    .produtos {
+        display: flex;
+        width: 280px;
+        height: 50px;
+        margin:  auto;
+    }
+}
