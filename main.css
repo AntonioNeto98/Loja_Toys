@@ -60,7 +60,7 @@ header h1 {
     margin: 15px;
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 1024px) {
 
     .carousel-item img {
         height: 500px;
